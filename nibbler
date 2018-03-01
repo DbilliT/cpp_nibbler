@@ -1,0 +1,2 @@
+#!/bin/sh
+export LD_LIBRARY_PATH=/usr/lib64/mpi/gcc/openmpi/lib64:./UI/sfml/SFML-2.2/lib/ && ./bin_nibbler $1 $2 $3 $4
